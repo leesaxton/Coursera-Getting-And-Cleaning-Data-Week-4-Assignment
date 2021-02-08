@@ -1,6 +1,6 @@
-**Codebook for getting and cleaning data week 4 assignment**
-**Author: Lee Saxton**
-**Date: 08 Feb 2021**
+**Codebook for getting and cleaning data week 4 assignment**  
+**Author: Lee Saxton**  
+**Date: 08 Feb 2021**  
 
 2 datasets are ouput from run_analysis.R  
 merge_all_keep - contains mean and standard deviation measurments from stury outline in ReadMe.txt  
