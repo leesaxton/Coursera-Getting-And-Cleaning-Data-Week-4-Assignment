@@ -67,4 +67,6 @@ final_mean <- merge_all_keep %>% group_by (Subject, Activity) %>%
   summarise_all(funs(mean))
 ## Delete intermediate datasets
 rm("activities", "features", "merge_all", "subject_merge", "subject_test", "subject_train", "x_merge", "x_train","x_test", "y_merge", "y_train","y_test", "fileurl", "keepcols")
+## Write final tidy dataset out to txt file
+write.table(final_mean,"tidy_data.txt", row.names=FALSE)
 
